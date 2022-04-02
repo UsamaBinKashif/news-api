@@ -29,8 +29,6 @@ XHR.onload = function () {
         </div>`;
       main.innerHTML += card;
     });
-  } else if (XHR.status === 404) {
-    document.write("NOT FOUND");
   }
 };
 XHR.send();
