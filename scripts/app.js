@@ -1,11 +1,11 @@
-let apiKey = "5f2bfb11fc40488ca69c0251790b3fb6";
-let country = "us";
+let apiKey = "9e8f2fdd5439ed61d1dfca984d8105a8";
+let country = "pk";
 let main = document.querySelector(".main");
 
 let XHR = new XMLHttpRequest();
 XHR.open(
   "GET",
-  `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${apiKey}`,
+  `https://gnews.io/api/v4/top-headlines?country=${country}&token=${apiKey}`,
   true
 );
 
@@ -18,7 +18,7 @@ XHR.onload = function () {
       let card = `
       <div class="p-4 md:w-1/3">
           <div class="h-full border-2 border-blue-600 border-opacity-60 rounded-lg overflow-hidden">
-            <img class="lg:h-48 md:h-25 w-full object-fit " src="${element.urlToImage}"
+            <img class="lg:h-48 md:h-30 w-30 object-contain " src="${element.image}"
               alt="blog">
             <div class="p-6">
               <h1 class="title-font text-lg font-medium text-gray-50 mb-3">${element.title}</h1>
