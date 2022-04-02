@@ -4,4 +4,4 @@
 
 ### Locate articles and breaking news headlines from news sources and blogs across the web with this JSON API.
 
-![live link](https://news-api-kohl.vercel.app/)
+!['link'](https://news-api-kohl.vercel.app/)
