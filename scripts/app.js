@@ -1,11 +1,11 @@
 let apiKey = "5f2bfb11fc40488ca69c0251790b3fb6";
-let source = "bbc-news";
+let country = "us";
 let main = document.querySelector(".main");
 
 let XHR = new XMLHttpRequest();
 XHR.open(
   "GET",
-  `https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=${apiKey}`,
+  `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${apiKey}`,
   true
 );
 
