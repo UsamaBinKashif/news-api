@@ -1,4 +1,4 @@
-<a href="https://newsapi.org/" target="_blank">NEWS API</a>
+# <a href="https://newsapi.org/" target="_blank">NEWS API</a>
 
 ## Search worldwide news with code.
 
